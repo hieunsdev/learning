@@ -1,1 +1,19 @@
-checkk
+sử dụng git:
+
+1. đầu tiên khi kéo code về cần checkout và tạo branch riêng:
+- git checkout master
+- git branch "..."
+hoặc: 
+- git checkout -b "..."
+
+2. sau đấy code trên branch riêng.
+
+3. sau khi code xong:
+- git add .
+- git commit -m "..."
+- git push --set-upstream origin <tên nhánh>
+
+4. quay về master và merge branch đấy vào
+- git checkout master
+- git merge <tên nhánh cần merge vào master>
+- git push 
