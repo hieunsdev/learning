@@ -1,0 +1,1 @@
+// phan hoanh mang? tu A[p...r] -> thanh` 2 day~ nho. day 
